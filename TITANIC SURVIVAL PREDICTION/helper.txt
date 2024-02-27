@@ -1,0 +1,20 @@
+Numerical (Discrete):
+
+    PassengerId: A unique identifier assigned to each passenger.
+    Survived: Indicates whether the passenger survived (1) or not (0).
+    Pclass: Passenger class (e.g., 1st, 2nd, 3rd), representing the ticket type purchased.
+    SibSp: The number of siblings or spouses traveling with the passenger.
+    Parch: The number of parents or children traveling with the passenger.
+
+Numerical (Continuous):
+
+    Age: The passenger's age in years at the time of travel.
+    Fare : Represents the ticket price for each passenger
+Categorical (Nominal):
+
+    Name: The passenger's full name.
+    Sex: The passenger's gender. { 'male' : 1, 'female' : 0 }
+    Ticket: The unique ticket number.
+    Cabin: The cabin number or category assigned to the passenger.
+    Embarked: The port where the passenger boarded the ship. {'S':1,'C':2,'Q':3}
+
